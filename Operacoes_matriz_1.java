@@ -17,7 +17,7 @@ public class Operacoes_matriz_1 {
 		
 		for(int linha=0; linha<2; linha++) {
 			for(int coluna = 0; coluna<2; coluna++) {
-				System.out.printf("Insira o elemento matriz1[%d][%d]: ", linha, coluna);
+				System.out.printf("Insira o elemento matriz1[%d][%d]: ", linha,coluna);
 				matriz1[linha][coluna]=entrada.nextInt();
 			}
 		}
@@ -65,7 +65,7 @@ public class Operacoes_matriz_1 {
 				break;
 				
 			case 3:
-				System.out.println("\nDigite um número para a constante: ");
+				System.out.println("\nDigite um nï¿½mero para a constante: ");
 				c = ler.nextInt();
 				for(int linha=0; linha<2; linha++) {
 					for(int coluna = 0; coluna<2; coluna++) {
@@ -110,7 +110,7 @@ public class Operacoes_matriz_1 {
 				}
 				break;
 				default:
-					System.out.println("Opção inválida, por favor, reinicie com uma opção válida.");
+					System.out.println("Opï¿½ï¿½o invï¿½lida, por favor, reinicie com uma opï¿½ï¿½o vï¿½lida.");
 				
 		}
 			
