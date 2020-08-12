@@ -10,7 +10,7 @@ public class ex1 {
 		soma015 = A[0] + A[1] + A[5];
 		A[4] = 100;
 
-		System.out.println("Soma das posições 0, 1 e 5: " + soma015);
+		System.out.println(" Soma das posições 0, 1 e 5: " + soma015);
 
 		for (int i : A) 
 		{
